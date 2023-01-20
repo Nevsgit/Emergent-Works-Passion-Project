@@ -1,0 +1,138 @@
+header {
+    background-color: #162C9a;
+    color: #f9faf8;
+    padding: 1em calc((100% - 1080px) / 2) 6em;
+}
+
+body {--gutter: calc((100% - 1080px) / 2) ;
+    margin: 0px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8
+}
+
+.Signuplink {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 800;
+    padding: 0.5em 2em;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.headertop {
+    display: flex;
+    gap: 2em;
+}
+
+.grow {
+    flex: 1 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0
+}
+
+.headerlink {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.heroimage {
+    background-color: grey;
+    flex: 1;
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    border-radius: 25px;
+    overflow:hidden
+
+}
+.heroimage img {width:100% ; height:100% ; display:block}
+
+.herotext {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.upper-body {
+    padding: 1em var(--gutter) 6em
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color:#162C9a
+}
+
+.selling-points {
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+}
+
+.selling-points>div {
+    text-align: center;
+    color: #162C9a;
+    flex: 0 1 20em;
+}
+.selling-points> div[two] img {object-fit:cover}
+
+.selling-points img {
+    border-color: #162C9a;
+    border-style: solid;
+    border-width: 4px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 25px;
+}
+
+.estimate {
+
+    background-color: #162C9a;
+    color: #f9faf8;
+    font-size: 25px;
+    display: flex;
+    margin-top: 100px;
+    padding: 2.5em 1.5em;
+    gap: 1.5em;
+    border-radius: 25px;
+    align-items: center;
+
+}
+
+.estimate>a {
+    color: inherit;
+    text-decoration: none;
+    border: 4px solid currentColor;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.estimate>a:first-of-type {
+    margin-left: auto;
+}
+footer{background-color: #1f2937; color: #f9faf8; text-align: center; font: 15px; padding:0 var(--gutter)}
