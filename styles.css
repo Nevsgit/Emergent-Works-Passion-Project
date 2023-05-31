@@ -121,18 +121,18 @@ h2 {
     gap: 1.5em;
     border-radius: 25px;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
-.estimate>a {
+.estimate a {
     color: inherit;
     text-decoration: none;
     border: 4px solid currentColor;
     border-radius: 25px;
     padding: 10px;
 }
-
-.estimate>a:first-of-type {
-    margin-left: auto;
-}
 footer{background-color: #1f2937; color: #f9faf8; text-align: center; font: 15px; padding:0 var(--gutter)}
+.estimate-text {margin-right: auto;}
+.estimate-buttons {display: flex; flex-wrap: wrap; gap:1em;
+;}
